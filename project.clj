@@ -12,4 +12,5 @@
                  [clj-http "3.12.3"]
                  [cheshire "5.10.2"]
                  [eigenhombre/namejen "0.1.23"]]
-  :repl-options {:init-ns cheliks-api.core})
+  :repl-options {:init-ns cheliks-api.core}
+  :main cheliks-api.core)
